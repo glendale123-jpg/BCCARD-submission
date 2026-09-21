@@ -1,0 +1,23 @@
+# 대회 제공 데이터 (보안관리 서약 대상) — 절대 커밋 금지
+ABP_CONTEST_DATA.csv
+*ABP_CONTEST*
+전국매트릭스_결과.csv
+후보_선정결과.csv
+대조군_후보.csv
+
+# API 인증키
+code/api_key.py
+api_key.py
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
