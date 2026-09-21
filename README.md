@@ -52,10 +52,10 @@
 
 | 경로 | 내용 |
 |---|---|
-| `code/분석코드.ipynb` | **★ 메인 — 분석 본류 전체.** 데이터 결합 → 회귀 → σ → 후보 선정 → 유형 → 검증 |
-| `code/03_심층분석.ipynb` | 연령 분해 · 대형마트 통제 · 대조군 선정 · 최소 탐지 기준 |
-| `code/부록_지표검증.ipynb` | 잔차 진단 4종 · 다중공선성 · 점포 수 수집(공공데이터포털 API) |
-| `code/population.ipynb` | 주민등록인구 전처리 — 분석코드의 입력 CSV를 만든다 |
+| `code/02_침투지수_분석.ipynb` | **★ 메인 — 분석 본류 전체.** 데이터 결합 → 회귀 → σ → 후보 선정 → 유형 → 검증 |
+| `code/03_심층진단.ipynb` | 연령 분해 · 대형마트 통제 · 대조군 선정 · 최소 탐지 기준 |
+| `code/04_지표검증.ipynb` | 잔차 진단 4종 · 다중공선성 · 점포 수 수집(공공데이터포털 API) |
+| `code/01_인구_전처리.ipynb` | 주민등록인구 전처리 — 분석코드의 입력 CSV를 만든다 |
 | `code/data/population/`, `card/`, `cache/` | 공개 출처 데이터 |
 
 읽는 순서는 `population.ipynb` → **`분석코드.ipynb`** → `03_심층분석.ipynb` → `부록_지표검증.ipynb` 입니다.
@@ -65,7 +65,7 @@
 
 ```bash
 pip install pandas numpy statsmodels scikit-learn matplotlib geopandas
-jupyter lab code/분석코드.ipynb
+jupyter lab code/02_침투지수_분석.ipynb
 ```
 
 BC카드 소비데이터(`ABP_CONTEST_DATA.csv`)를 `code/data/`에 두면 그대로 실행됩니다.
